@@ -7,7 +7,7 @@ Proyecto: "  PERFUMERIA "
 SPRINT 1 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 1. Crear el repositorio del proyecto y agregar colaboradores  
-Grupo_2_ProyectoIntegrador  //Entregar  url del repositorio//https://github.com/FuldauerP/ProyectoIntegrador
+Grupo_2_ProyectoIntegrador  //Entregar  url del repositorio// git
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
@@ -21,9 +21,8 @@ Ajuste de la Oferta al público objetivo: Utilizaremos Facebooks Ads y Google Ad
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Integrantes: //Breve descripción//	 
 ENDRINA PEREZ: 
-GISELLE BIONDO: estudiante (?
-PABLO FULDAUER:
-CARLOS PEREA: Estudiante de desarrollo Web    xd
+GISELLE BIONDO: estudiante
+CARLOS PEREA: Estudiante de desarrollo Web
 
 
 ----------------------------------------------------------------------------
