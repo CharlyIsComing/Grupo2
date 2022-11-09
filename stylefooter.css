@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif; 
+	box-sizing: border-box;
+
+
+}
+
+
+
+.bodyfooter {
+	display: flex;
+    padding: 0 10px;
+	column-gap: 10px;
+	column-count: 3;
+
+}
+
+
+.poli, .term, .his {
+color: black;
+text-decoration: none;
+
+}
+
+ .his a:hover {
+color: #e24c66;
+
+
+}
+
+.group1, .group2, .group3 {
+margin: 0px 60px 0px 60px;
+padding: 40px;
+
+
+}
+
+.group1, .group2, .group3 h2{
+color: #ed4e6a ;
+
+}
+
+.group1 ul{
+list-style: none;
+color: #36454f;
+margin: auto;
+padding: 10px;
+font-size: 20px;
+}
+
+.group2 ul{
+	list-style: none;
+	color: #36454f;
+	margin: auto;
+	padding: 10px;
+	font-size: 20px;
+
+}
+
+.group3 ul,  p {
+	list-style: none;
+	color: #36454f;
+	margin: auto;
+	padding: 5px;
+	font-size: 20px;
+}
+
+
+.social{
+
+    width: fit-content;
+	margin: 0px 200px ;
+	padding: 30px;
+	display: flex;
+	column-gap: 300px;
+	font-size: 40px;
+  }
+
+.social a {
+		color: #ed4e6a;
+		align-content: center;
+	
+    }
+
+
+.news{
+ width: 100%;
+ height: auto;
+ background-color: black;
+ padding: 30px 0;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ color: whitesmoke;
+}
+
+.news h3{
+	font-size: 30px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.news p {
+
+    font-size: 15px;
+	font-weight: 200;
+	color: rgba(255, 255, 255, 0.3);
+}
+
+.news form{
+    width: 500px;
+	height: 55px;
+	margin-top: 10px;
+	background-color: #fff;
+	border-radius: 100px;
+	display: flex;
+}
+
+.news form input{
+    flex: 1;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	padding-left: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #36454f;
+}
+
+.news form button {
+    width: 100px;
+	border-radius: 100px;
+	font-size: 25px;
+	border: none;
+	outline: none;
+	background-color: #ed4e6a;
+	color: #fff;
+	margin: 4px;
+	cursor: pointer;
+	transition: 0.5s;
+
+}
+
+.news form button:hover{
+	background-color: #e24c66;
+}
+
+.copy-right{
+
+ width: 100%;
+ height: auto;
+ padding: 30px 0;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ 
+}
+
