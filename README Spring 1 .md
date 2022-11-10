@@ -1,6 +1,6 @@
 # Somos el Grupo 2 del curso de Tecnicas de Programacion del CFP 18. Este es nuestro primer Spring
 Profesor a cargo: Diego Iacub
-Integrantes: Pablo Fuldauer, Endrina Perez, Giselle Del Biondo, Carlos Perea
+Integrantes: Endrina Perez, Giselle Del Biondo, Carlos Perea
 Proyecto: "  PERFUMERIA " 
 
 
@@ -20,7 +20,7 @@ Ajuste de la Oferta al público objetivo: Utilizaremos Facebooks Ads y Google Ad
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
 Integrantes: //Breve descripción//	 
-ENDRINA PEREZ: 
+ENDRINA PEREZ: aprendiendo ando
 GISELLE BIONDO: estudiante
 CARLOS PEREA: Estudiante de desarrollo Web
 
@@ -35,9 +35,5 @@ https://www.parfumerie.com.ar Nav Bar Amplio con varias opciones
 https://www.beauty24.com.ar me gustaron los botones de Gifts, Mas vendidos y Sale
 
 
-//En el README.md agregar un listado de al menos 5 sitios de referencia indicando brevemente por qué fueron elegidos.  						
-Por los productos o servicios que ofrecen. 
-Por los clientes a los que apuntan.
-Por la estética que presentan.
-Por las funcionalidades implementadas. //
+
 
