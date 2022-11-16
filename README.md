@@ -5,7 +5,7 @@ Integrantes: Endrina Perez, Giselle Del Biondo, Carlos Perea
 Proyecto: "  PERFUMERIA " 
 
 
-SPRINT 1 
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
 1. Crear el repositorio del proyecto y agregar colaboradores  
 Grupo2 //Entregar  url del repositorio: https://github.com/gibiondo/Grupo2
