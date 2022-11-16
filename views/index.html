@@ -1,88 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name=" viewport" content=" width= device-width, user-scalable= no, 
-    inicial-scale= 1.0, maximun-scale=1.0, minimun-scale=1.0" > 
-    <title>grupo 2</title>
-  <link rel="stylesheet" href="/public/css/stylefooter.css">
-    <script src="https://kit.fontawesome.com/8adcad999b.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfumeria</title>
+  <link rel="stylesheet" href="css/styleproducts.css">
   
-
 </head>
-<header>
-   <!--COMIENZO NAVBAR- GI -->    
-   
-   <a href="/public/images/logo1.jpeg"></a>
 
-    <a href="#" class="logo">
-        <img src="/images/logo1.jpeg" alt="">
-        <h2 class="nombre-empresa">Prunelle Parfum</h2>
-    </a>
-
-
+  <!--INICIO  HTML DEL HEADER DE 13 A 71 / INICIO CSS HEADER 1 A 266--->
+  <head>
+  <div class="wrapper">
     <nav>
-        <a href="" class="nav">Inicio</a>
-        <a href="" class="nav">Sobre Nosotros</a>
-        <a href="" class="nav">Contacto</a>
+      <input type="checkbox" id="show-search">
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="#">Prunelle</a></div>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="#" class="desktop-link">Marcas</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Marcas</label>
+            <ul>
+              <li><a href="#">Armani</a></li>
+              <li><a href="#">Lancome</a></li>
+              <li><a href="#">YSL</a></li>
+              <li><a href="#">POLO</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="desktop-link">Fragancias</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Fragancias</label>
+            <ul>
+              <li><a href="#">Mujer</a></li>
+              <li><a href="#">Hombre</a></li>
+              <li><a href="#">Unisex</a></li>
+              <li>
+               <li><a href="#">Niños</a></li>
+              <li> 
+               <li><a href="#">Sets</a></li>
+              <li>
+                <li><a href="#">Ediciones limitadas</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="#">Sub Menu 1</a></li>
+                  <li><a href="#">Sub Menu 2</a></li>
+                  <li><a href="#">Sub Menu 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">SALE</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <label for="show-search" class="search-icon"><i class="fas fa-search"></i></label>
+      <form action="#" class="search-box">
+        <input type="text" placeholder="Type Something to Search..." required>
+        <button type="submit" class="go-icon"><i class="fas fa-long-arrow-alt-right"></i></button>
+      </form>
     </nav>
-</header>
-
-<body>
- 
-
-<!--COMIENZO IMAGENES DE PRODUCTOS - CARLOS --> 
-<link rel="stylesheet" href="/public/css/styleproducts.css">
-<div class="container">
-  <div class="card">
-    <div class="card-header">
-      <img src="https://fraguru.com/mdimg/perfume/375x500.71535.jpg" alt="Giorgio Armani Passione" />
-    </div>
-    <div class="card-body">
-      <article>
-        <span class="tag tag-teal">Giorgio Armani Passione</span>
-      </article>
-      
-      <h4>
-        Acordes principales
-      </h4>
-      <p>
-    afrutados
-rosas
-almizclado
-florales
-cítrico
-atalcado
-especiado suave
-avainillado
-fresco especiado
-aromático
-      </p>
-      <p class="price">$24.499 <strong>TESTER</strong></p>
-      <p><button>Agregar al carrito</button></p>
-      <p>Opiniones</p>
-       
-      <div class="user">
-        <img src="https://yt3.ggpht.com/a/AGF-l7-0J1G0Ue0mcZMw-99kMeVuBmRxiPjyvIYONg=s900-c-k-c0xffffffff-no-rj-mo" alt="user" />
-        <div class="user-info">
-          <h5>Gi Biondo</h5>
-          <small>Hace 2 h</small>
+  </div>
+    </header>
+   <!--FIN del HTML DEL HEADER DE 13 A 71 / INICIO CSS HEADER  A --->
+   <!--INICIO  HTML DEL BODY DE 74 A  / INICIO CSS FOOTER  A --->
+ <body>
+     <div class="main">
+       <section>
+  <h1>LANZAMIENTOS DEL MES</h1>
+  <ul class="cards">
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://fraguru.com/mdimg/perfume/375x500.71535.jpg"></div>
+        
+        <div class="card_content">
+          <h2 class="card_title">Giorgio Armani Passione</h2>
+          <p class="card_text">afrutados
+        rosas
+        almizclado
+        florales
+        cítrico
+        especiado
+        suave
+        avainillado
+        fresco
+        especiado
+        aromático</p>
+          <button class="btn card_btn">Añadir al carrito &hearts;</button>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header">
-      <img src="https://fraguru.com/mdimg/perfume/375x500.39459.jpg" alt="Michael Kors Wonderlast" />
-    </div>
-    <div class="card-body">
-      <span class="tag tag-purple">Michael Kors Wonderlast</span>
-      <h4>
-       Acordes principales
-      </h4>
-      <p>
-       almendrado
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://fraguru.com/mdimg/perfume/375x500.39459.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Michael Kors Wonderlast</h2>
+          <p class="card_text">almendrado
 atalcado
 florales
 amaderado
@@ -91,31 +111,17 @@ floral blanco
 cálido especiado
 ámbar
 nueces
-cítrico
-        <p class="price">$16.999 <strong>REGULAR</strong></p>
-      <p><button>Agregar al carrito</button></p>
-      <p>Opiniones</p>
-      </p>
-      <div class="user">
-        <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8sn9zF15pW59JIYiLgx3PQ3EyZLFp5Zqao906l=s32-c-mo" alt="user" />
-        <div class="user-info">
-          <h5>Carlos Perea</h5>
-          <small>Ayer</small>
+cítrico</p>
+          <button class="btn card_btn">Añadir al carrito &hearts;</button>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header">
-      <img src="https://fraguru.com/mdimg/perfume/375x500.11126.jpg" alt="Donna Karan Be Delicious" />
-    </div>
-    <div class="card-body">
-      <span class="tag tag-pink">Donna Karan Be Delicious</span>
-      <h4>
-     Acordes principales
-      </h4>
-      <p>
-        verde
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://fraguru.com/mdimg/perfume/375x500.11126.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Donna Karan Be Delicious</h2>
+          <p class="card_text">verde
 afrutados
 acuático
 ozónico
@@ -124,27 +130,73 @@ cítrico
 floral blanco
 florales
 fresco especiado
-amaderado
-      </p>
-        <p class="price">$18.499 <strong>REGULAR</strong></p>
-      <p><button>Agregar al carrito</button></p>
-      <p>Opiniones</p>
-      </p>
-      <div class="user">
-        <img src="https://studyinbaltics.ee/wp-content/uploads/2020/03/3799Ffxy.jpg" alt="user" />
-        <div class="user-info">
-          <h5>Endri Perez</h5>
-          <small>1 sem</small>
+amaderado</p>
+          <button class="btn card_btn">Añadir al carrito &hearts;</button>
         </div>
       </div>
-    </div>
-  </div>
-
-
-
-
-
-
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://fraguru.com/mdimg/perfume/375x500.75022.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Nina Fleur Nina Ricci</h2>
+          <p class="card_text">cítrico
+floral blanco
+fresco
+afrutados
+verde
+almizclado
+dulce
+jabonoso
+aromático</p>
+          <button class="btn card_btn">Añadir al carrito &hearts;</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://fraguru.com/mdimg/perfume/375x500.62036.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">My Way Giorgio Armani</h2>
+          <p class="card_text">cítrico
+floral blanco
+fresco
+afrutados
+verde
+almizclado
+dulce
+jabonoso
+aromático</p>
+          <button class="btn card_btn">Añadir al carrito &hearts;</button>
+        </div>
+      </div>
+    </li>
+    <li class="cards_item">
+      <div class="card">
+        <div class="card_image"><img src="https://fraguru.com/mdimg/perfume/375x500.64718.jpg"></div>
+        <div class="card_content">
+          <h2 class="card_title">Y Le Yves Saint Laurent</h2>
+          <p class="card_text">aromático
+fresco especiado
+cálido especiado
+fresco
+herbal
+ámbar
+amaderado
+aldehídico
+lavanda
+cítrico</p>
+          <button class="btn card_btn">Añadir al carrito &hearts;</button>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+  <h3 class="made_by">Made with ♡</h3> 
+  </body>
+<!--FINAL HTML  DEL BODY DE 74 A 195 / FIN  CSS DEL BODY 268 A 387--->
+  
+   <!--INICIO  HTML DEL FOOTER DE 204 A 309 / INICIO CSS FOOTER 391 A 387--->
 
 <!------Endrina Perez  
             inicie creacion de  footer  04/11/22   --------->
@@ -154,24 +206,24 @@ amaderado
 
                 <!------ cuerpo del footer
                    contiene tres columnas (grupo 1 2 3)--------->
-<div class="bodyfooter">
-        
-        <div class="group1">
-
-                <h2><b> Sobre Nosotros</b></h2><br>
-                                                                                        
-                  <ul>
-                            <!-- se crearon enlaces group 1 que rediccionaran a paginas
-                                  de informacion -->
-                    <li> <a href="#" class= " his" target="_blank">
-                                        Nuestra historia  </a></li>                                  
-                            <!--  se deben crear paginas par  los enlaces -->
-                    
-                  </ul>
-
-          </div>
-
-      <div class="group2">
+                <div class="bodyfooter">
+                       
+                        <div class="group1">
+          
+                               <h2><b> Sobre Nosotros</b></h2><br>
+                                                                                                       
+                                  <ul>
+                                            <!-- se crearon enlaces group 1 que rediccionaran a paginas
+                                                 de informacion -->
+                                    <li> <a href="#" class= " his" target="_blank">
+                                                        Nuestra historia  </a></li>                                  
+                                            <!--  se deben crear paginas par  los enlaces -->
+                                    
+                                  </ul>
+            
+                         </div>
+            
+                      <div class="group2">
                        
                        <h2><b> Servicio al Cliente</b></h2><br>
                       
@@ -259,12 +311,10 @@ amaderado
           
           
           
-           </body>
+           </b>
           </html>
            
 </body>
 
 </html>
-=======
 
->>>>>>> 610ca914c8fd90bf55aa0873de7f3c37c0e5c4d7
