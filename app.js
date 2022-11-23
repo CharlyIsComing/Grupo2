@@ -1,7 +1,8 @@
-const express = require('express');
+const express = require ('express');
 const app = express();
 const path = require('path');
 const PORT = process.env.PORT || 3000;
+const mainRoutes = require('/routes/mainRoutes.js')
 
 app.use(express.static(path.resolve(__dirname, 'public'))
 );
@@ -11,13 +12,13 @@ app.get('/', (req, res) => {
 });
 
 app.get('/register', (req, res) => {
-    res.sendFile(path.resolve(__dirname, './views/register.html'));
+    res.sendFile(path.resolve(__dirname, 'views/register.html'));
 });
 
 app.get('/login', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'login.html'));
+    res.sendFile(path.resolve(__dirname, 'views/login.html'));
 });
 
 app.listen(PORT, () => {
     console.log('listening on http://localhost:3000');
-});
+}); 

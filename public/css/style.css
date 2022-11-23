@@ -271,13 +271,40 @@ nav .content .links{
   padding-left:0px;
   padding-bottom:15px;
 }
+
+.fa-solid fa-user{
+  color: white
+
+}
+
+.login{
+  display: flex;
+  font-size: 21px;
+  margin-left: 97px;
+  margin-top: 72px;
+  width: 92px;
+  border: none;
+  background: none;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  height: 29px;
+}
+.loginimage{
+  display: flex;
+  padding: 0px;
+  height: 19%;
+  width: 28px;
+  margin-left: 163px;
+  margin-top: -30px;
+}
 /*FINAL HTML  DEL HEADER DE 13 A 71 /FIN  CSS DEL HEADER 3 A 270*/ 
 /*INICIO  DEL CSS BODY 273 A 391 / INICIO  HTML DEL BODY DE 74 A 195 */
 /* Font */ /*css 2 de productos*/
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 /* Design */
-*,
+
 *::before,
 *::after {
   box-sizing: border-box;
