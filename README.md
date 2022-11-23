@@ -1,7 +1,7 @@
 # Grupo2
 # Somos el Grupo 2 del curso de Tecnicas de Programacion del CFP 18. Este es nuestro primer proyecto
 Profesor a cargo: Diego Iacub
-Integrantes: Endrina Perez, Giselle Del Biondo, Carlos Perea
+Integrantes: Endrina Perez, Carlos Perea
 Proyecto: "  PERFUMERIA " 
 
 
@@ -15,13 +15,12 @@ Grupo2 //Entregar  url del repositorio: https://github.com/gibiondo/Grupo2
 2. Temática del Proyecto  :  PERFUMES
 Vista previa de producto:   https://github.com/gibiondo/Grupo2
 Producto/Servicio:Perfumes (Cliente; Perfumeria) 
-Audiencia objetivo: Hombres y Mujeres de 25 a 45 anos que viven en CABA y Gran Buenos Aires
+Audiencia objetivo: Hombres y Mujeres de 25 a 45 años que viven en CABA y Gran Buenos Aires.
 Ajuste de la Oferta al público objetivo: Utilizaremos Facebooks Ads y Google Ads
 
 -------------------------------------------------------------------------------------------------------
 Integrantes: 
 ENDRINA PEREZ: aprendiendo ando
-GISELLE BIONDO: estudiante
 CARLOS PEREA: Estudiante de desarrollo Web
 
 
