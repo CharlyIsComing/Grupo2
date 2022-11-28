@@ -1,13 +1,62 @@
-<form action="/login.html" method="post">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Perfumeria Login</title>
+</head>
+<header>
+    <div class="wrapper">
+     <nav>
+        <input type="checkbox" id="show-search">
+        <input type="checkbox" id="show-menu">
+        <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+        <div class="content">
+        <div class="logo"><a href="#">Prunelle</a>
+        </div>
+      </div>
+     </nav>
+    </div>
+</header>
 
-<label for = "user"> Nombre</label> 
-<input type="text" name="user">
+
+<body>
+<div class="form-login">
+    <form action="/login.html" method="post">
+        <div>
+        <label for = "user"> Nombre</label> 
+        <input type="text" name="user"/>
+        </div>
+
+        <div>
+        <label for = "Password"> Constraseña</label> 
+        <input type= "Password" name ="Password"/>
+        </div>
+
+        <div class="button">
+        <button type="submit"> Ingresar</button>
+        </div>
+    </form>
+</div>
+</body>  
+    <footer>
+        <div class="copy-right"> 
+        <small>  Copyright © 2022  <b>  Prunelle Parfum S.R.L. </b> Todos los derechos Reservados </small> 
+        </div>               
+   
+    </footer>      
+</html>
+    
 
 
-<label for = "Password"> Constraseña</label> 
-<input type= "Password" name ="Password"><button type="submit"> Ingresar
 
-</button>
+
+
  
 
 

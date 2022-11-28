@@ -22,6 +22,7 @@ Ajuste de la Oferta al público objetivo: Utilizaremos Facebooks Ads y Google Ad
 Integrantes: 
 ENDRINA PEREZ: aprendiendo ando
 CARLOS PEREA: Estudiante de desarrollo Web
+MARIA VICTORIA HERRERA: Estudiante de desarrollo Web
 
 
 ----------------------------------------------------------------------------

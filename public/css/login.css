@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+  }
+  .wrapper{
+    background: rgba(0,0,0);
+    position: fixed;
+    width: 100%;
+    padding-left: 100;
+  }
+  nav .content{
+    display: flex;
+    align-items: center;
+  }
+  .content .logo a{ 
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 30px;
+    
+  }
+.form-login{
+    border: 5px;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Quicksand', serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    padding: 0px;}
+
+  .bodyfooter {
+	display: flex;
+    padding: 0 10px;
+	column-gap: 10px;
+	column-count: 3;
+
+}
+  .copy-right{
+
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   }
+  
