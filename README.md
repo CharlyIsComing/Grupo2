@@ -23,6 +23,7 @@ Integrantes:
 ENDRINA PEREZ: aprendiendo ando
 CARLOS PEREA: Estudiante de desarrollo Web
 MARIA VICTORIA HERRERA: Estudiante de desarrollo Web
+JUAN ALVAREZ: Estudiante de desarrollo web
 
 
 ----------------------------------------------------------------------------
