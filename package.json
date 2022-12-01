@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "express": "^4.18.1",
+    "express": "^4.18.2",
     "nodemon": "^2.0.20"
   },
   "name": "proyectointegrador-1",
@@ -8,8 +8,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"},
-
+    "start": "node app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FuldauerP/ProyectoIntegrador.git"
