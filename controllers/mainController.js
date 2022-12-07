@@ -1,11 +1,11 @@
 
-const listProducts =[
+const listProducts = [
     {id:1,
       titule: "Giorgio Armani Passione" , 
       description:"aroma afrutado",
       price:"65.50",
       currency: "U$S",
-      image:"https://fraguru.com/mdimg/perfume/375x500.71535.jpg",
+      image:"https://fraguru.com/mdimg/perfume/375x500.71535.jpg"
   
   },
   {id:2,
@@ -42,24 +42,17 @@ const listProducts =[
     price:"150.00",
     currency: " U$S ",
     image:"https://fraguru.com/mdimg/perfume/375x500.64718.jpg"
-  },
-  
-  ]
+  }
+]
   const mainController = {
-    index: (req,res)=> {res.render('index',{menu: listProducts});
+    index: (req,res)=> {res.render('index',{products:listProducts});
   },
   detalle: (req, res) => {
     const id = req.params.id;
     const perfume = listProducts.find(perfume => perfume.id == id);
-    res.render("detalleMenu", { perfume });
+    res.render("detalleProductos", { perfume });
   }
   
-  
-  // const mainController = {
-  //     index:  (req,res)=>{
-  //       res.sendFile(path.join(__dirname,'../views/index.html'));  
-  //     }
-  //}
 }
 
 module.exports = mainController;
