@@ -1,4 +1,18 @@
-<form action="/register"method="POST">
+<!DOCTYPE html>
+<html lang="en">
+
+ <head> 
+   <%- include('partials/head') %>
+ </head>
+ 
+ <header>
+  <%- include("partials/header") %>
+ </header>
+
+
+ <body>
+    
+ <form action="/register"method="POST">
     
     <label for="nombre">Nombre</label>
     <input type="text"name="nombre"id="nombre">
@@ -13,4 +27,14 @@
     <input type="text"name="password"id="password">
 
     <button type="submit">Registrarse</button>
-</form>
+ </form>
+</body>
+
+  <!-- inicio footer-->
+
+  <footer> 
+    <%- include("partials/footer") %>
+  </footer>
+  <!-- fin footer -->
+
+  
