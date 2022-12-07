@@ -3,9 +3,10 @@ const app = express();
 const path = require('path');
 const methodOverride = require('method-override');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4002;
 const mainRoutes = require('./routes/mainRoutes');
 const productsRoutes = require('./routes/productsRoutes');
+const usersRoutes = require('./routes/usersRoutes');
 
 
 app.set('views', path.join(__dirname, 'views'));
@@ -20,6 +21,7 @@ app.use('/', mainRoutes);
 
 // http://localhost;3000/products
 app.use('/products', productsRoutes);
+app.use('/users', usersRoutes);
 
 // configuarcion de public static
 app.use(express.static(path.join(__dirname, 'public')));

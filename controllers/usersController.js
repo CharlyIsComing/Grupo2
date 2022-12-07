@@ -6,13 +6,13 @@ const userListPath = path.resolve(__dirname, '../data/users.json');
 const userList = JSON.parse(fs.readFileSync(userListPath, 'utf8'));
 
 const usersController = {
-    getAllUsers: (req, res) => {
-        res.render('index', {
+     login: (req, res) => {
+        res.render('users/login', {
             users: userList
         });
     },
-    createUser: (req, res) => {
-        res.render('users/create');
+        register: (req, res) => {
+        res.render('users/register');
     },
     storeUser: (req, res) => {
         let user = req.body;
