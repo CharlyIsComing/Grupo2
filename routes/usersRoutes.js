@@ -6,8 +6,8 @@ router.get('/login', usersController.login);
 router.get('/register', usersController.register);
 
 
-
-/* Route to get all users
+/*
+Route to get all users
 router.get('/', usersController.getAllusers);
 Route create a new product
 router.get('/register', usersController.createUser);

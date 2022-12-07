@@ -6,12 +6,7 @@ const path = require('path');
 const PORT = process.env.PORT || 4002;
 const mainRoutes = require('./routes/mainRoutes');
 const productsRoutes = require('./routes/productsRoutes');
-<<<<<<< HEAD
-const usersRoutes = require('./routes/usersRoutes');
-
-=======
-//const usersRoutes =requiere ('./routes/usersRoutes');//
->>>>>>> 9d5d5e98625d88fc38cbdf13c108552915fe06ef
+const usersRoutes = require ('./routes/usersRoutes');
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
@@ -22,7 +17,6 @@ app.use(express.json());
 
 // Routes
 app.use('/', mainRoutes);
-//app.use('./users', usersRoutes);//
 
 // http://localhost;3000/products
 app.use('/products', productsRoutes);
