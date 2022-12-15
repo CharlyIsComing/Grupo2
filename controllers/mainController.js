@@ -45,12 +45,12 @@ const listProducts = [
   }
 ]
   const mainController = {
-    index: (req,res)=> {res.render('index',{products:listProducts});
+    index: (req,res)=> {res.render('index',{menu:listProducts});
   },
   detalle: (req, res) => {
     const id = req.params.id;
     const perfume = listProducts.find(perfume => perfume.id == id);
-    res.render("detalleProductos", { perfume });
+    res.render("detalleMenu", { perfume });
   }
   
 }

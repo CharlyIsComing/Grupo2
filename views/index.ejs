@@ -10,14 +10,26 @@
      <div class="main">
        <section>
 
-<% for(let index=0; index <6; index++) { %>
-         <h4><%= products[index].titule %></h4>
+<!--        <% for(let index=0; index <6; index++) { %>-->
+<% for(let index=0; index < menu.6; index++) { %>
+<a href="/detalle/<%= menu[index].id %>">
+<p class="ps-text-grey">
+        <h4><%= menu[index].titule %></h4>
+        <h4><%= menu[index].description %></h4>
+        <h4><%= menu[index].price %></h4>
+        <h4><%= menu[index].image %></h4>
+        </p>
+        </a>
         <br />
-        <% } %>
+        <% } %> 
 
   <h1>LANZAMIENTOS DEL MES</h1>
   <ul class="cards">
-    <li class="cards_item">
+  <% for(let index=0; index <6; index++) { %>
+        <h2 class="card_title"><%= products[index].titule %></h2>
+               <br />
+        <% } %>
+     <li class="cards_item">
       <div class="card">
         <div class="card_image"><img src="https://fraguru.com/mdimg/perfume/375x500.71535.jpg"></div>
         
@@ -132,7 +144,7 @@ cítrico</p>
       </div>
     </li>
   </ul>
- </div>
+ </div> */
   <h3 class="made_by">Made with ♡</h3> 
   
 </body>
